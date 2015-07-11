@@ -1,4 +1,4 @@
-package com.example.development.VehicleMotorExample;
+package com.example.development.VehicleMotorExample.model;
 
 public class Motor {
 

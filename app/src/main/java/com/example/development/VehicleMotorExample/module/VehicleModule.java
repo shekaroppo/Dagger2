@@ -2,8 +2,8 @@ package com.example.development.VehicleMotorExample.module;
 
 import javax.inject.Singleton;
 
-import com.example.development.VehicleMotorExample.Motor;
-import com.example.development.VehicleMotorExample.Vehicle;
+import com.example.development.VehicleMotorExample.model.Motor;
+import com.example.development.VehicleMotorExample.model.Vehicle;
 import dagger.Module;
 import dagger.Provides;
 

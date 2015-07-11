@@ -4,10 +4,6 @@ import android.util.Log;
 
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.OkHttpClient;
-import com.squareup.okhttp.Request;
-import com.squareup.okhttp.RequestBody;
-
-import java.io.IOException;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -28,14 +24,12 @@ public class TwitterApi {
     }
 
     public void postTweet(String name, String tweet) {
-
-        Log.d("=====>", name + tweet + "=====");
-
-        RequestBody body = RequestBody.create(JSON, name + ":" + tweet);
-        Request request = new Request.Builder()
-                .url("http://image.tmdb.org/t/p/w500/8uO0gUM8aNqYLs1OsTBQiXu0fEv.jpg")
-                .post(body)
-                .build();
+        Log.d("From: "+name,"Tweet: "+tweet+"");
+//        RequestBody body = RequestBody.create(JSON, name + ":" + tweet);
+//        Request request = new Request.Builder()
+//                .url("http://image.tmdb.org/t/p/w500/8uO0gUM8aNqYLs1OsTBQiXu0fEv.jpg")
+//                .post(body)
+//                .build();
 //        try {
 //            client.newCall(request).execute();
 //        } catch (IOException e) {

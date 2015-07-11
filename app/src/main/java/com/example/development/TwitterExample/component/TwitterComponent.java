@@ -1,11 +1,12 @@
 package com.example.development.TwitterExample.component;
 
 
-import javax.inject.Singleton;
-
-import com.example.development.TwitterExample.Tweeter;
+import com.example.development.TwitterExample.model.Tweeter;
 import com.example.development.TwitterExample.module.NetworkModule;
 import com.example.development.TwitterExample.module.TwitterModule;
+
+import javax.inject.Singleton;
+
 import dagger.Component;
 
 /**

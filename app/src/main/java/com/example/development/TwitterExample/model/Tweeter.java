@@ -1,4 +1,6 @@
-package com.example.development.TwitterExample;
+package com.example.development.TwitterExample.model;
+
+import com.example.development.TwitterExample.TwitterApi;
 
 /**
  * Created by Sekhar on 3/22/15.

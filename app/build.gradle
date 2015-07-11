@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'com.neenbedankt.android-apt' //Apply neenbedankt dependency at project build.gradle
 
 android {
     compileSdkVersion 22

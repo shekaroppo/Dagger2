@@ -3,7 +3,7 @@ package com.example.development.VehicleMotorExample.component;//package com.exam
 
 import javax.inject.Singleton;
 
-import com.example.development.VehicleMotorExample.Vehicle;
+import com.example.development.VehicleMotorExample.model.Vehicle;
 import com.example.development.VehicleMotorExample.module.VehicleModule;
 import dagger.Component;
 

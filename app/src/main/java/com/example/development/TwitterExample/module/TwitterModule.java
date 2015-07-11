@@ -1,9 +1,10 @@
 package com.example.development.TwitterExample.module;
 
+import com.example.development.TwitterExample.TwitterApi;
+import com.example.development.TwitterExample.model.Tweeter;
+
 import javax.inject.Singleton;
 
-import com.example.development.TwitterExample.Tweeter;
-import com.example.development.TwitterExample.TwitterApi;
 import dagger.Module;
 import dagger.Provides;
 
