@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.development.dagger2" >
+<manifest
+    package="com.example.development"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
+        android:name=".Base.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.development.TwitterExample.TwitterActivity"
+            android:name="com.example.development.ComponentDependenciesExample.DependenciesExampleActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

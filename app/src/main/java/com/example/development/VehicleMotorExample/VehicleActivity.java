@@ -4,11 +4,10 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.development.VehicleMotorExample.model.Vehicle;
-import com.example.development.dagger2.R;
-
+import com.example.development.R;
 import com.example.development.VehicleMotorExample.component.DaggerVehicleComponent;
 import com.example.development.VehicleMotorExample.component.VehicleComponent;
+import com.example.development.VehicleMotorExample.model.Vehicle;
 import com.example.development.VehicleMotorExample.module.VehicleModule;
 
 
