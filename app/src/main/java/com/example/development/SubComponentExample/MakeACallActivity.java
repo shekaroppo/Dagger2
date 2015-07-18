@@ -17,9 +17,6 @@ import butterknife.ButterKnife;
 public class MakeACallActivity extends Activity {
 
     @Inject
-    Sim mSim;
-
-    @Inject
     Mobile mMobile;
 
     @Override

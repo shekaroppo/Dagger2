@@ -23,5 +23,8 @@ public interface BaseComponent {
      */
     MobileComponent plus(MobileModule mobileModule);
 
+    /**
+     * Opening this api for DependenciesExampleActivity
+     */
     NetworkUtils getNetworkUtils();
 }
